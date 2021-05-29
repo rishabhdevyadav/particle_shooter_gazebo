@@ -68,4 +68,12 @@ TIP2: Increase the particle and <reset_frequency>
 # SKID STEER ROBOT
 REFERENCE: https://github.com/aditirao7/auto_trav
 
+![Alt text](https://github.com/rishabhdevyadav/particle_shooter_gazebo/blob/main/auto_trav/skid_steer.png)
+
+### launch 
+```
+roslaunch mybot_gazebo mybot_world.launch
+```
+Original repo has been modified by commenting sensors like camera, lidar, imu, gps.\
+For reference, uncomment them in file ``` mybot.gazebo ``` and ```mybot.xacro  ```
 
