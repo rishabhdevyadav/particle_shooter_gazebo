@@ -64,3 +64,8 @@ TIP1: You can create "model name=particle_sphere2" having no gravity effect or s
       So that, behaviour of particle_sphere and particle_sphere2 will be different in simulation.\
 TIP2: Increase the particle and <reset_frequency>
 
+
+# SKID STEER ROBOT
+REFERENCE: https://github.com/aditirao7/auto_trav
+
+
