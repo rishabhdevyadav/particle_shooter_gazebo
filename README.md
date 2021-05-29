@@ -2,6 +2,8 @@
 Gazebo plugin for particle shooter
 ORIGINAL REPO: https://bitbucket.org/theconstructcore/particle_shooter/src/master/
 
+![Alt text](https://github.com/rishabhdevyadav/particle_shooter_gazebo/blob/main/particle_shooter/gif/simulation.gif)
+
 
 ## MINIMAL PARAMETERS TO BE TUNED
 
