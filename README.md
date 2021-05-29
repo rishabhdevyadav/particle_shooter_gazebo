@@ -77,3 +77,13 @@ roslaunch mybot_gazebo mybot_world.launch
 Original repo has been modified by commenting sensors like camera, lidar, imu, gps.\
 For reference, uncomment them in file ``` mybot.gazebo ``` and ```mybot.xacro  ```
 
+```
+rostopic pub -r10 /cmd_vel geometry_msgs/Twist "linear:
+  x: 1.0
+  y: 0.0
+  z: 0.0
+angular:
+  x: 0.0
+  y: 0.0
+  z: 1.5"
+```
