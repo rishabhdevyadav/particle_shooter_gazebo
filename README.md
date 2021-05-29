@@ -4,6 +4,13 @@ ORIGINAL REPO: https://bitbucket.org/theconstructcore/particle_shooter/src/maste
 
 ![Alt text](https://github.com/rishabhdevyadav/particle_shooter_gazebo/blob/main/particle_shooter/gif/simulation.gif)
 
+## Launch
+```bash
+roslaunch particle_shooter main.launch
+```
+
+Sometime Gazebo will lag or give erros even after terminating the launch file.\
+Wait for few seconds and give command ```  killall -9 gazebo & killall -9 gzserver  & killall -9 gzclient     ```
 
 ## MINIMAL PARAMETERS TO BE TUNED
 
